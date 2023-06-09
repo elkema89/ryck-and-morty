@@ -1,0 +1,59 @@
+.tarjeta{
+    background-image: url(../../../img/desktop-wallpaper-rick-and-morty-rick-and-morty-portal.jpg);
+    background-size: cover;
+    filter: opacity(70%);
+    margin:20px;
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(43, 255, 0);
+    width:310px;
+    /* height: 550px; */
+}
+.tarjeta:hover {
+    box-shadow: 10px 10px 10px rgb(43, 255, 0);
+    scale: 1.1;
+}
+.tarjeta img{
+    border-radius: 15px;
+    width: 300px;
+    margin: auto;
+}
+.boton button{
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    margin: 8px;
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+}
+.boton button:hover{
+    background-color: red;
+    box-shadow: 5px 5px 15px rgb(43, 255, 0);
+    cursor: pointer;
+    color: white;
+}
+.tarjeta h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(43, 255, 0);
+    background-color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+    margin: 5px 20px;
+    border-radius: 15px;
+}
+.tarjeta p {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(43, 255, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+    margin: 5px 10px;
+    border-radius: 15px;
+}
+.boton {
+    display: flex;
+    justify-content: end;
+}

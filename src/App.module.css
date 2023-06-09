@@ -1,0 +1,8 @@
+.App {
+   text-align: center;
+   background-image: url(../img/812062.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   height: 100vw;
+}

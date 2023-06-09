@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../../img/desktop-wallpaper-rick-and-morty-rick-and-morty-portal.jpg);
+    border-radius: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px rgb(43, 255, 0);
+    opacity: 70%;
+    
+}
+.container h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(43, 255, 0);
+    background-color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+    margin: 5px 20px;
+    border-radius: 15px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.container label{
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 5px rgb(43, 255, 0);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    border:solid 1px rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+    margin: 5px 10px;
+    border-radius: 15px;
+    padding: 0 5px;
+}
+.container input{
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    border: solid 1px rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgb(43, 255, 0);
+    color: rgb(255, 255, 255);
+}
+.container button{
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    border: solid 1px rgb(255, 255, 255);
+    font-size: 20px;
+    box-shadow: 3px 3px 5px rgb(43, 255, 0);
+    margin: 10px auto;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+}
+.container button:hover{
+    box-shadow: 5px 5px 15px rgb(43, 255, 0);
+    cursor: pointer;
+}
+.container span{
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
